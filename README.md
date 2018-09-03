@@ -77,5 +77,6 @@ angular 如何启动项目:<br>
 4.AppModule 启动Angular模块(@ngModule)<br>
 5.@ngModule 为 AppModule 添加元数据,并指定了顶层组件AppComponent<br>
 6.AppComponent 中我们就可以为所欲为了<br>
+![image](https://github.com/15529343201/auction/blob/chapter2/image/4.PNG)<br>
     
 
