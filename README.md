@@ -70,3 +70,12 @@ import { AppComponent } from './app.component';
 })
 export class AppModule { }
 ```
+angular 如何启动项目:<br>
+1.当你在命令行中输入 ng serve 后<br>
+2.ng 会根据 angular-cli.json 中的 main元素 找到 应用入口文件main.ts<br>
+3.main.ts 再加载 根模块AppModule<br>
+4.AppModule 启动Angular模块(@ngModule)<br>
+5.@ngModule 为 AppModule 添加元数据,并指定了顶层组件AppComponent<br>
+6.AppComponent 中我们就可以为所欲为了<br>
+    
+
