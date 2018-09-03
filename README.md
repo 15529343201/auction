@@ -101,4 +101,23 @@ ng g component product
 ng g component stars
 ```
 ### 开发app组件
-
+```
+<app-navbar></app-navbar>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <app-search></app-search>
+    </div>
+    <div class="col-md-9">
+      <div class="row">
+        <app-carousel></app-carousel>
+      </div>
+      <div class="row">
+        <app-product></app-product>
+      </div>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>
+```
+![image](https://github.com/15529343201/auction/blob/chapter2/image/5.PNG)<br>
