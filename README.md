@@ -78,5 +78,27 @@ angular 如何启动项目:<br>
 5.@ngModule 为 AppModule 添加元数据,并指定了顶层组件AppComponent<br>
 6.AppComponent 中我们就可以为所欲为了<br>
 ![image](https://github.com/15529343201/auction/blob/chapter2/image/4.PNG)<br>
-    
+Angular4启动过程:https://blog.csdn.net/It_rod/article/details/78837101<br>   
+### 开发准备
+```
+npm install jquery --save
+npm install bootstrap --save
+"styles": [
+        "styles.css",
+        "../node_modules/bootstrap/dist/css/bootstrap.css"
+      ],
+      "scripts": [
+        "../node_modules/jquery/dist/jquery.js",
+        "../node_modules/bootstrap/dist/js/bootstrap.js"
+      ],
+npm install @types/jquery --save-dev
+npm install @types/bootstrap --save-dev
+ng g component navbar
+ng g component footer
+ng g component search
+ng g component carousel
+ng g component product
+ng g component stars
+```
+### 开发app组件
 
