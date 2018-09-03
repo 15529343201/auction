@@ -34,6 +34,7 @@ Angular cli 工具生成的目录文件名不要随意修改，要不然会影�
 - tslint.json：Angular代码检测配置文件。
 
 ![image](https://github.com/15529343201/auction/blob/chapter2/image/3.PNG)<br>
+组件:<br>
 ```
 import { Component } from '@angular/core';
 
@@ -45,4 +46,27 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app works!';
 }
+```
+模块:<br>
+```
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
+
+import { AppComponent } from './app.component';
+
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+    FormsModule,
+    HttpModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
 ```
