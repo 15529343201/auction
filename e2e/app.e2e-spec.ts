@@ -1,14 +1,14 @@
-import { AuctionPage } from './app.po';
+import { AppPage } from './app.po';
 
 describe('auction App', () => {
-  let page: AuctionPage;
+  let page: AppPage;
 
   beforeEach(() => {
-    page = new AuctionPage();
+    page = new AppPage();
   });
 
-  it('should display message saying app works', () => {
+  it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getParagraphText()).toEqual('Welcome to app!');
   });
 });
